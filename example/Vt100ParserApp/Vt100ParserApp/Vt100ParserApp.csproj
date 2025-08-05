@@ -8,9 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Vt100ParserLib">
-      <HintPath>..\..\..\Vt100ParserLib\bin\Release\net8.0\Vt100ParserLib.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\Vt100ParserLib\Vt100ParserLib.csproj" />
   </ItemGroup>
 
 </Project>
